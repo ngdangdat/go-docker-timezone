@@ -24,7 +24,7 @@ Copy timezone information from tzdata package to container (used to run binary f
 
 ```bash
 # Build docker image
-$ docker build -t gotz
+$ docker build -t gotz .
 # Run docker image
 $ docker run gotz
 ```
